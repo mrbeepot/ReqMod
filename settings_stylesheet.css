@@ -1,0 +1,13 @@
+html {
+    font-family: Arial, Helvetica, sans-serif !important;
+    background-color: #333;
+    color: #eeeeee;
+    padding: 4px;
+
+}
+
+#reqmod-page-title-container > h1 {
+    width: 100%;
+    margin: 20px 0 auto;
+    text-align: center;
+}

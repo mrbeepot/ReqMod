@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="popup_stylesheet.css">
+    </head>
+    <body>
+
+        <h2 id="reqmod-heading-h2" class="heading">REQMOD QUICK SETTINGS</h2>
+
+        <table id="quick-settings-table">
+            <tbody>
+                <tr class="row">
+                    <td class="cell-left"><span id="master-switch-heading-span">Master switch: </span></td>
+                    <td class="cell-right">
+                        <span id="master-switch-off-span" class="master-switch-text">OFF</span>
+                        <label class="switch">
+                            <input id="master-switch-checkbox" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <span id="master-switch-on-span" class="master-switch-text">ON</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="open-settings-page-container-div">
+            <input id="open-settings-page-submit" type="submit" value="Open settings page" />
+        </div>
+        <script type="text/javascript" src="./popup_script.js"></script>
+    </body>
+</html>

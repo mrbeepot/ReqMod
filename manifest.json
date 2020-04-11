@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "ReqMod",
+    "description": "Request modifier extension, can modfy headers and cookies of your web requests.",
+    "version": "1.0",
+    "icons": {
+        "32": "icons/rm-32.png",
+        "48": "icons/rm-48.png",
+        "96": "icons/rm-96.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/rm-32.png",
+        "default_title": "ReqMod",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "applications": {
+        "gecko": {
+            "id": "@cb"
+        }
+    }
+
+}
